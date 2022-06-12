@@ -103,5 +103,13 @@ public class Fundamentals {
         char letra = 'a';
         int letraI = (int) letra;
         System.out.println(letraI);
+
+        var edad = 17;
+        if (edad == 18) {
+            System.out.println("You are older than 18");
+        } else {
+            System.out.println("You are younger than 18");
+        }
+
     }
 }
