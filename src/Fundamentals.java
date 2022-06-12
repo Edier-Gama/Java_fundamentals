@@ -104,6 +104,10 @@ public class Fundamentals {
         int letraI = (int) letra;
         System.out.println(letraI);
 
+
+
+        //CONDITIONALS
+
         var edad = 17;
         if (edad == 18) {
             System.out.println("You are older than 18");
@@ -111,5 +115,16 @@ public class Fundamentals {
             System.out.println("You are younger than 18");
         }
 
+        switch (edad) {
+            case 18:
+                System.out.println("You are older than 18");
+                break;
+            case 17:
+                System.out.println("You are younger than 18");
+                break;
+            default:
+                System.out.println("You are not 18");
+                break;
+        }
     }
 }
